@@ -1,0 +1,5 @@
+# List of refractive indices for 
+# Units: unitless
+# n_re,n_im,"description"
+1.31167,0,"Water Ice" 
+1.33,0,"Air@20C"

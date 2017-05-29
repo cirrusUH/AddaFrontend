@@ -1,0 +1,10 @@
+QLineEdit:
+  ui->lineEdit->clear();          // insert does not delete everything.
+  ui->lineEdit->insert("100");    // this triggers the vaildator
+  emit ui->lineEdit->editingFinished(); // as this is not emitted when insert is called.
+
+  // then use editingfinished() for taking the information out
+
+
+QRadioButton.
+  use the toggled(bool) signal.

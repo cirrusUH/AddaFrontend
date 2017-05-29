@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TargetMachine_Archer</class>
+ <widget class="QWidget" name="TargetMachine_Archer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>778</width>
+    <height>423</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="2">
+    <widget class="QComboBox" name="comboBox_targetmachine_archer_budgetcodes">
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_targetmachine_queue">
+     <property name="text">
+      <string>Queue:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_targetmachine_archer_budgetcode">
+     <property name="text">
+      <string>Budgetcode:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QCheckBox" name="checkBox_targetmachine_archer_add_stuckjobmonitor">
+     <property name="text">
+      <string>Add stuck job monitor:</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLabel" name="label_archer_stuck_jobs">
+     <property name="text">
+      <string>Exit after</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QComboBox" name="comboBox_targetmachine_archer_queues">
+     <item>
+      <property name="text">
+       <string>standard</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>long</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="4" column="3">
+    <widget class="QLabel" name="label_archer_stuck_jobs2">
+     <property name="text">
+      <string>% of runs have completed</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2">
+    <widget class="QLineEdit" name="lineEdit_targetmachine_percent">
+     <property name="text">
+      <string>95</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_targetmachine_archer_walltime_label">
+     <property name="text">
+      <string>Walltime:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="2">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="2">
+    <widget class="QLineEdit" name="lineEdit_targetmachine_archer_walltime"/>
+   </item>
+   <item row="2" column="3">
+    <widget class="QLabel" name="label_walltime_format">
+     <property name="text">
+      <string>&quot;hh:mm:ss&quot;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_archer_jobtype">
+     <property name="text">
+      <string>Jobtype:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QComboBox" name="comboBox_archer_jobtye">
+     <item>
+      <property name="text">
+       <string>array</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>forloop</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

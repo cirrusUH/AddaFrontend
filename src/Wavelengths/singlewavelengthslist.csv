@@ -1,0 +1,5 @@
+# List of wavelengths for common types
+# Units: nm
+# lambda(nm), "description"
+532,"AIITS/SID-3 laser"
+633,"HeNe"

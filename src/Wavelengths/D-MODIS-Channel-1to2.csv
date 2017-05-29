@@ -1,0 +1,5 @@
+# Source: http://eoweb.dlr.de:8080/short_guide/D-MODIS.html
+# DisplayName: MODIS 36 Channels
+# wavelength(nm), description(string)
+645,"Band 1 Land/Cloud/Aerosols/Boundaries"
+858.5,"Band 2 Land/Cloud/Aerosols/Boundaries"
